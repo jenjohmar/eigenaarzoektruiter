@@ -48,8 +48,8 @@ main {
 	align-content: baseline;
 	display: flex;
 	flex-direction: column;
+	align-self: flex-end;
 }
-
 
 h1 {
 	font-family: "Bebas Neue";
