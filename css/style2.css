@@ -110,15 +110,6 @@ h1 {
 }
 
 .slider {
-	width: 65%;
-	box-sizing: border-box;
-	
-	display: flex;
-	
-	align-items: center;
-}
-
-.slider2 {
 	box-sizing: border-box;
 	display: flex;
 	align-items: center;
@@ -126,11 +117,23 @@ h1 {
 
 .slider div {
 	position: absolute;
+	padding: 0;
+}
 
-	.slider img {
-	
+div.slider {
+	padding: 0;
+}
+
+.slider img {
+	height: 100%;
 	border-radius: 8px;
-	width: 100%;}
+}
+
+.slider2 img {
+	width: 100%;
+	border-radius: 8px;
+}
+
 
 /*content container-2*/
 .container-2 {
