@@ -45,7 +45,7 @@ main {
 }
 
 .tagline-nav {
-	align-content: baseline;
+	
 	display: flex;
 	flex-direction: column;
 	align-self: flex-end;
@@ -118,14 +118,19 @@ h1 {
 	align-items: center;
 }
 
-.slider div {
-	position: absolute;
+.slider2 {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
 }
 
-.slider img {
+.slider div {
+	position: absolute;
+
+	.slider img {
+	
 	border-radius: 8px;
-	width: 100%;
-}
+	width: 100%;}
 
 /*content container-2*/
 .container-2 {
