@@ -1,12 +1,15 @@
-// JavaScript Document
+document.getElementById("leesmeer-1").addEventListener('click', function(){
+	document.querySelector(".spotlight-1").style.display = 'flex';
+});
 
-$(".sliderslideshow > div:gt(0)").hide();
+document.querySelector('.close-1').addEventListener('click', function() {
+	document.querySelector('.spotlight-1').style.display = 'none';
+});
 
-setInterval(function() { 
-  $('.slider > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('.slider');
-},  3000);
+document.getElementById("leesmeer-2").addEventListener('click', function(){
+	document.querySelector(".spotlight-2").style.display = 'flex';
+});
+
+document.querySelector('.close-2').addEventListener('click', function() {
+	document.querySelector('.spotlight-2').style.display = 'none';
+});
