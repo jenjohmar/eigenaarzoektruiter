@@ -31,8 +31,8 @@
 				<a class="dropdown-item" href="groningen.html">Groningen</a>
 				<a class="dropdown-item" href="limburg.html">Limburg</a>
 				<a class="dropdown-item active" href="noord-holland.html">Noord-Holland</a>
-				<a class="dropdown-item" href="gelderland.html">Overijssel-Zuid</a>
 				<a class="dropdown-item" href="noord-nederland.html">Overijssel-Noord</a>
+				<a class="dropdown-item" href="gelderland.html">Overijssel-Zuid</a>
 			  	<a class="dropdown-item" href="#">Utrecht</a>
 			  	<a class="dropdown-item" href="zeeland.html">Zeeland</a>
 		  		<a class="dropdown-item" href="zuid-holland.html">Zuid-Holland</a></div></li>
@@ -45,7 +45,7 @@
             <li class="nav-item"> <a class="nav-link" href="contact.html">CONTACT</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#">SPONSORS</a> </li>
 			<li class="nav-item"> <a class="nav-link" href="kernteam.html">KERNTEAM</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="home.html">TEST</a> </li>
+			
           </ul>
         </div>
       </nav>
@@ -59,202 +59,205 @@
       <div class="col-xl-4">
         <div class="gemeenschap">
           <h3 class="h3">belangrijke informatie</h3>
-          <p class="p">Wij zullen uw gegevens alleen gebruiken binnen het kader van Eigenaar Zoekt Ruiter. Uw contactgegevens worden gedeeld met het regioteam waaronder u valt. Het regioteam maakt met u afspraken omtrent matching en begeleiding. De regio Noord-Nederland (Friesland, Drenthe, Groningen en de kop van Overijssel) <a class="linkopblauw" href="#">heeft een eigen aanmeldprocedure</a>. Indien u zich wilt aanmelden in de regio Limburg, dient u zich aan te melden <a class="linkopblauw" href="#">op de website van Fokker Zoekt Ruiter</a>. </p>
+          <p class="p">Wij zullen uw gegevens alleen gebruiken binnen het kader van Eigenaar Zoekt Ruiter. Uw contactgegevens worden gedeeld met het regioteam waaronder u valt. Het regioteam maakt met u afspraken omtrent matching en begeleiding. De regio Noord-Nederland (Friesland, Drenthe, Groningen en de kop van Overijssel) <a class="linkopblauw" href="#">heeft een eigen aanmeldprocedure</a>. Indien u zich wilt aanmelden in de regio Limburg, dient u zich aan te melden <a class="linkopblauw" href="#">op de website van Fokker Zoekt Ruiter</a>.</p>
         </div>
         <div><img class="img-fluid img-fokker" src="images/img/stock/fokker.jpg" alt="eigenaar en paard"></div>
       </div>
       
       <!--kolom rechts-->
+		
       <div class="col-xl-8 formulier">
-      <p class="p-form">Aanmelden voor de regio Noord-Nederland (Friesland, Drenthe, Groningen) gaat via hun <a href="https://www.eigenaarzoektruiternoordnederland.nl/" target="new">eigen website</a>. Wilt u zich aanmelden voor de provincie Limburg, ga dan naar de website van <a href="https://fokkerzoektruiter.nl/" target="new">Fokker Zoekt Ruiter</a>.</p>
+      <p class="p-form">Aanmelden voor de regio Noord-Nederland (Friesland, Drenthe, Groningen) gaat via hun <a href="https://www.eigenaarzoektruiternoordnederland.nl/" target="new">eigen website</a>. Wilt u zich aanmelden voor de provincie Limburg, ga dan naar de website van <a href="https://fokkerzoektruiter.nl/" target="new">Fokker Zoekt Ruiter</a>. Maximaal 2 dieren per aanmeldformulier. Velden met een * zijn verplicht. </p>
       <h3 class="h3">aanmeldformulier eigenaar/fokker</h3>
-      <form id="formulier-eigenaar">
+      <form id="formulier-eigenaar" action="https://gmail.us7.list-manage.com/subscribe/post?u=9012a8cd75274ab6e08c89411&amp;id=27187b8f8e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div class="form-group d-flex">
           <div class="wn wn-20">
-            <label>Voornaam</label>
-            <input type="text" placeholder="Voornaam" class="form-control" id="inputVoornaam" required>
+            <label for="voornaam-eig">Voornaam*:</label>
+            <input type="text" placeholder="Voornaam" class="form-control" name="voornaam-eig" id="voornaam-eig" required>
           </div>
           <div class="wn wn-40">
-            <label>Achternaam</label>
-            <input type="name" class="form-control" id="inputAchternaam" placeholder="Achternaam" required>
+            <label for="achternaam-eig">Achternaam*:</label>
+            <input type="text" class="form-control" id="achternaam-eig" name="achternaam-eig" placeholder="Achternaam" required>
           </div>
           <div class="wn-40">
-            <label>Bedrijfsnaam</label>
-            <input type="name" class="form-control" id="inputBedrijfsnaam" placeholder="Bedrijfsnaam">
+            <label for="bedrijf">Bedrijfsnaam:</label>
+            <input type="text" class="form-control" id="bedrijf" name="bedrijf" placeholder="Bedrijfsnaam">
           </div>
         </div>
         <div class="form-group adres">
-          <label>Adres</label>
-          <input type="street" class="form-control" id="inputStreet" placeholder="Straat + huisnummer" required>
+          <label for="straat-eig">Straat & huisnummer*:</label>
+          <input type="text" class="form-control" id="straat-eig" name="straat-eig" placeholder="Straat + huisnummer" required>
         </div>
         <div class="form-group d-flex">
           <div class="wn wn-20">
-            <label>Postcode</label>
-            <input type="text" class="form-control" id="inputZIP" placeholder="Postcode" required>
+            <label for="postcode-eig">Postcode*:</label>
+            <input type="text" class="form-control" id="postcode-eig" name="postcode-eig" placeholder="Postcode" required>
           </div>
           <div class="wn wn-50">
-            <label>Woonplaats</label>
-            <input type="text" class="form-control" id="inputCity" placeholder="Woonplaats" required>
+            <label for="woonplaats-eig">Woonplaats*:</label>
+            <input type="text" class="form-control" id="woonplaats-eig" name="woonplaats-eig" placeholder="Woonplaats" required>
           </div>
           <div class="wn-30">
-            <label>Provincie</label>
-            <input type="text" class="form-control" id="inputProv" placeholder="Provincie" required>
+            <label for="provincie-eig">Provincie*:</label>
+            <select name="provincie-eig" id="provincie-eig" class="form-control">
+				<option value="brabant">Brabant</option>
+				<option value="drenthe">Drenthe</option>
+				<option value="flevoland">Flevoland</option>
+				<option value="friesland">Friesland</option>
+				<option value="gelderland">Gelderland</option>
+				<option value="groningen">Groningen</option>
+				<option value="limburg">Limburg</option>
+				<option value="noord-holland">Noord-Holland</option>
+				<option value="overijssel-noord">Kop van Overijssel</option>
+				<option value="overijssel-zuid">Overijssel Zuid</option>
+				<option value="utrecht">Utrecht</option>
+				<option value="zeeland">Zeeland</option>
+				<option value="zuid-holland">Zuid-Holland</option>
+			</select>
           </div>
         </div>
         <div class="form-group e-mail d-flex wn">
           <div class="wn wn-40">
-            <label for="exampleInputEmail1">e-mail adres</label>
+            <label for="exampleInputEmail1">E-mail*:</label>
             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="voorbeeld@voorbeeld.com" required>
           </div>
           <div class="wn wn-30">
-            <label>Telefoon</label>
-            <input type="number" class="form-control" id="inputTel" placeholder="0123456789">
+            <label>Telefoon:</label>
+            <input type="tel" class="form-control" id="inputTel" placeholder="0123456789">
           </div>
           <div class="wn-30">
-            <label>Mobiel</label>
-            <input type="number" class="form-control" placeholder="0612345678">
+            <label>Mobiel:</label>
+            <input type="tel" class="form-control" placeholder="0612345678">
           </div>
         </div>
         <div class="form-group">
-          <label>AAN TE MELDEN DIER(EN):</label>
           <div class="d-flex">
             <div class="wn wn-50">
-              <label class="vet">GEGEVENS DIER 1</label>
+              <p class="vet">GEGEVENS DIER 1</p>
               <div class="form-group">
-                <label for="paard-of-pony-1">Paard of pony:</label>
-                <select id="paard-of-pony-1" class="form-control" required>
-                  <option>Maak uw keuze...</option>
-                  <option>Paard</option>
-                  <option>A-pony</option>
-                  <option>B-pony</option>
-                  <option>C-pony</option>
-                  <option>D-pony</option>
-                  <option>E-pony</option>
+                <label for="paard-of-pony-1">Paard of pony*:</label>
+                <select id="paard-of-pony-1" name="paard-of-pony-1" class="form-control" required>
+                  <option value="maak-keuze">Maak uw keuze...</option>
+                  <option value="paard">Paard</option>
+                  <option value="a-pony">A-pony</option>
+                  <option value="b-pony">B-pony</option>
+                  <option value="c-pony">C-pony</option>
+                  <option value="d-pony">D-pony</option>
+                  <option value="e-pony">E-pony</option>
                 </select>
               </div>
-			  <label style="display: none;" for="naam-dier-1">Naam dier 1</label>
-              <input type="text" class="form-control rij" id="naam-dier-1" placeholder="Naam" required>
+			  <label style="display: none;" for="naam-dier-1">Naam dier 1*:</label>
+              <input type="text" class="form-control rij" id="naam-dier-1" name="naam-dier-1" placeholder="Naam" required>
               <label style="display: none;" for="ras-dier-1">Ras of stamboek dier 1</label>
-			  <input type="text" class="form-control rij" id="ras-dier-1" placeholder="Ras en/of stamboek" required>
+			  <input type="text" class="form-control rij" id="ras-dier-1" name="ras-dier-1" placeholder="Ras en/of stamboek" required>
               <div class="d-flex">
                 <div class="wn wn-50">
-				  <label style="display: none;" for="leeftijd-dier-1">Leeftijd dier 1</label>
-                  <input type="text" class="form-control rij" id="leeftijd-dier-1" placeholder="Leeftijd" required>
+				  <label style="display: none;" for="leeftijd-dier-1">Leeftijd dier 1*:</label>
+                  <input type="text" class="form-control rij" id="leeftijd-dier-1" name="leeftijd-dier-1" placeholder="Leeftijd" required>
                 </div>
                 <div class="wn-50">
-				  <label style="display: none;" for="stokmaat-dier-1">Stokmaat dier 1</label>
-                  <input type="text" class="form-control rij" id="stokmaat-dier-1" placeholder="Stokmaat" required>
+				  <label style="display: none;" for="stokmaat-dier-1">Stokmaat dier 1*:</label>
+                  <input type="text" class="form-control rij" id="stokmaat-dier-1" name="stokmaat-dier-1" placeholder="Stokmaat" required>
                 </div>
               </div>
-              <label>Discipline (meerdere opties mogelijk):</label>
+              <label>Discipline (meerdere opties mogelijk)*:</label>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="zadelmak-1">
+                <input type="checkbox" class="form-check-input" id="zadelmak-1" name="zadelmak-1">
                 <label class="form-check-label" for="zadelmak-1">Zadelmak maken</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="recreatief-1">
+                <input type="checkbox" class="form-check-input" id="recreatief-1" name="recreatief-1">
                 <label class="form-check-label" for="recreatief-1">Recreatief</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="dressuur-1">
+                <input type="checkbox" class="form-check-input" id="dressuur-1" name="dressuur-1">
                 <label class="form-check-label" for="dressuur-1">Dressuur</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="springen-1">
+                <input type="checkbox" class="form-check-input" id="springen-1" name="springen-1">
                 <label class="form-check-label" for="springen-1">Springen</label>
               </div>
               <div class="anders form-check">
-                <input type="checkbox" class="form-check-input">
-                <label for="disc-anders-1">Anders, namelijk:</label>
-                <input type="text" class="form-control rij" id="disc-anders-1">
+                <input type="checkbox" class="form-check-input" id="discipline-anders-1" name="discipline-anders-1">
+                <label for="discipline-anders-1">Anders (omschrijf dit bij Toelichting):</label>
               </div>
-              <label for="doel-dier-1">Wat is uw doel?:</label>
-              <input type="text" class="form-control" id="doel-dier-1" placeholder="Beschrijf hier uw doel">
+              <label for="doel-dier-1">Wat is uw doel?</label>
+			  <textarea name="doel-1" id="doel-1" cols="30" rows="3" class="form-control rij" placeholder="Beschrijf hier uw doel"></textarea>
+              
             </div>
             <div class="wn-50">
-              <label class="vet">GEGEVENS DIER 2</label>
+              <p class="vet">GEGEVENS DIER 2</p>
               <div class="form-group">
-                <label for="paard-of-pony-2">Paard of pony:</label>
-                <select id="paard-of-pony-2" class="form-control" required>
-                  <option>Maak uw keuze...</option>
-                  <option>Paard</option>
-                  <option>A-pony</option>
-                  <option>B-pony</option>
-                  <option>C-pony</option>
-                  <option>D-pony</option>
-                  <option>E-pony</option>
+                <label for="paard-of-pony-2">Paard of pony*:</label>
+                <select id="paard-of-pony-2" name="paard-of-pony-2" class="form-control" required>
+                  <option value="maak-keuze">Maak uw keuze...</option>
+                  <option value="paard">Paard</option>
+                  <option value="a-pony">A-pony</option>
+                  <option value="b-pony">B-pony</option>
+                  <option value="c-pony">C-pony</option>
+                  <option value="d-pony">D-pony</option>
+                  <option value="e-pony">E-pony</option>
                 </select>
               </div>
-			  <label style="display: none;" for="naam-dier-2">Naam dier 2</label>
-              <input type="text" class="form-control rij" id="naam-dier-2" placeholder="Naam" required>
-              <label style="display: none;" for="ras-dier-2">Ras of stamboek dier 2</label>
-			  <input type="text" class="form-control rij" id="ras-dier-2" placeholder="Ras en/of stamboek" required>
+			  <label style="display: none;" for="naam-dier-2">Naam dier 2*:</label>
+              <input type="text" class="form-control rij" id="naam-dier-2" name="naam-dier-2" placeholder="Naam" required>
+              <label style="display: none;" for="ras-dier-2">Ras of stamboek dier 2:</label>
+			  <input type="text" class="form-control rij" id="ras-dier-2" name="ras-dier-2" placeholder="Ras en/of stamboek" required>
               <div class="d-flex">
                 <div class="wn wn-50">
-				  <label style="display: none;" for="leeftijd-dier-2">Leeftijd dier 2</label>
-                  <input type="text" class="form-control rij" id="leeftijd-dier-2" placeholder="Leeftijd" required>
+				  <label style="display: none;" for="leeftijd-dier-2">Leeftijd dier 2*:</label>
+                  <input type="text" class="form-control rij" id="leeftijd-dier-2" name="leeftijd-dier-2" placeholder="Leeftijd" required>
                 </div>
                 <div class="wn-50">
-				  <label style="display: none;" for="stokmaat-dier-2">Stokmaat dier 2</label>
-                  <input type="text" class="form-control rij" id="stokmaat-dier-2" placeholder="Stokmaat" required>
+				  <label style="display: none;" for="stokmaat-dier-2">Stokmaat dier 2*:</label>
+                  <input type="text" class="form-control rij" id="stokmaat-dier-2" name="stokmaat-dier-2" placeholder="Stokmaat" required>
                 </div>
               </div>
-              <label>Discipline (meerdere opties mogelijk):</label>
+              <label>Discipline (meerdere opties mogelijk)*:</label>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="zadelmak-2">
+                <input type="checkbox" class="form-check-input" id="zadelmak-2" name="zadelmak-2">
                 <label class="form-check-label" for="zadelmak-2">Zadelmak maken</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="recreatief-2">
+                <input type="checkbox" class="form-check-input" id="recreatief-2" name="recreatief-2">
                 <label class="form-check-label" for="recreatief-2">Recreatief</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="dressuur-2">
+                <input type="checkbox" class="form-check-input" id="dressuur-2" name="dressuur-2">
                 <label class="form-check-label" for="dressuur-2">Dressuur</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="springen-2">
+                <input type="checkbox" class="form-check-input" id="springen-2" name="springen-2">
                 <label class="form-check-label" for="springen-2">Springen</label>
               </div>
               <div class="anders form-check">
-                <input type="checkbox" class="form-check-input">
-                <label for="disc-anders-2">Anders, namelijk:</label>
-                <input type="text" class="form-control rij" id="disc-anders-2">
+                <input type="checkbox" class="form-check-input" id="discipline-anders-2" name="discipline-anders-2">
+                <label for="discipline-anders-2">Anders (omschrijf dit bij Toelichting)</label>
               </div>
-              <label for="doel-dier-2">Wat is uw doel?:</label>
-              <input type="text" class="form-control" id="doel-dier-2" placeholder="Beschrijf hier uw doel">
+              <label for="doel-dier-2">Wat is uw doel*?</label>
+              <textarea name="doel-dier-2" id="doel-dier-2" cols="30" rows="3" class="form-control rij" required>Beschrijf hier uw doel...</textarea>
             </div>
           </div>
         </div>
         <div class="form-group">
-          <label for="huisvesting">Huisvesting paard/pony:</label>
-          <select class="form-control" id="huisvesting" required>
-            <option>Maak uw keuze...</option>
-            <option>Moet bij mij op stal blijven</option>
-            <option>Mag verplaatst worden, ik ben bereid bij te dragen aan de stallingskosten</option>
-            <option>Mag verplaatst worden, ruiter draagt zelf stallingskosten</option>
+          <label for="huisvesting">Huisvesting paard/pony*:</label>
+          <select class="form-control" id="huisvesting" name="huisvesting" required>
+            <option value="maak-keuze">Maak uw keuze...</option>
+            <option value="keuze-1">Moet bij mij op stal blijven</option>
+            <option value="keuze-2">Mag verplaatst worden, ik ben bereid bij te dragen aan de stallingskosten</option>
+            <option value="keuze-3">Mag verplaatst worden, ruiter draagt zelf stallingskosten</option>
           </select>
         </div>
         <div class="form-group">
-          <label for="extra-info">Graag toelichten wat voor u belangrijk is om tot een perfecte match te komen:</label>
-          <input type="text" class="form-control" id="extra-info" placeholder="Ruimte voor extra informatie.">
+          <label for="extra-info">Toelichting:</label>
+          <textarea type="text" class="form-control" id="extra-info" cols="30" rows="5" placeholder="Ruimte voor extra informatie en wensen"></textarea>
         </div>
         <div class="form-group">
-          <label for="kostenverdeling">Training, begeleiding, huisvesting, alles heeft zijn prijs. Kunt u aangeven welk deel van de kosten u voor uw rekening wilt nemen en welk deel u verwacht dat de ruiter bijdraagt?</label>
-          <input type="text" class="form-control" id="kostenverdeling" placeholder="Wie draagt welke kosten?">
+          <label for="kostenverdeling">Training, begeleiding, huisvesting, alles heeft zijn prijs. Kunt u al kort aangeven welk deel van de kosten u voor uw rekening wilt nemen en welk deel u verwacht dat de ruiter bijdraagt*?</label>
+          <textarea name="kosten" id="kosten" cols="30" rows="5" class="form-control" required></textarea>
         </div>
-        <div class="form-group">
-          <label for="percentage">Wilt u aangeven of u, bij mogelijke verkoop van uw paard/pony, bereid bent om de ruiter een percentage van de verkoopprijs te gunnen?</label>
-			<div class="form-check">
-			  <input type="radio" class="form-check-input" name="percentage">
-			  <label class="form-check-label">Ja</label>
-			</div>
-			<div class="form-check">
-			  <input type="radio" class="form-check-input" name="percentage">
-			  <label class="form-check-label">Nee</label>
-			</div>
-        </div>
-        <button type="submit" class="btn btn-primary">VERSTUUR</button>
+        <input type="submit" class="btn btn-primary" value="Verstuur uw aanmelding">
+        
         
       </form>
     </div>

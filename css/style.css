@@ -174,15 +174,6 @@ h1 {
 	
 }
 
-.voorbeeld {
-	background-color: aliceblue;
-	border-radius: 8px;
-	padding: 1em;
-	width: 100%;
-	margin-bottom: 1em;
-	
-}
-
 .vet {
 	font-weight: 800;
 }
@@ -365,6 +356,20 @@ img.d-block.mx-auto {
 }
 
 /*EIGENAAR*/
+
+.voorbeelden {
+	background-color: aliceblue;
+	padding: 0.5em;
+	border-radius: 8px;
+	height: 100%;
+	display: flex;
+}
+
+.voorbeeld {
+	background-color: white;
+	padding: 1em;
+	margin: 0.5em;
+}
 
 .vb-button {
 	color: white;
