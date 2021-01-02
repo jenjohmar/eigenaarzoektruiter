@@ -61,7 +61,7 @@
           <h3 class="h3">belangrijke informatie</h3>
           <p class="p">Wij zullen je gegevens alleen gebruiken binnen het kader van Eigenaar Zoekt Ruiter. Je contactgegevens worden gedeeld met het regioteam waaronder je valt. Het regioteam maakt met jou afspraken omtrent matching en begeleiding. De regio Noord-Nederland (Friesland, Drenthe, Groningen en de kop van Overijssel) <a class="linkopblauw" href="#">heeft een eigen aanmeldprocedure</a>. Indien je je wilt aanmelden in de regio Limburg, moet je dat doen <a class="linkopblauw" href="#">op de website van Fokker Zoekt Ruiter</a>.</p>
         </div>
-		<div><img class="img-fluid img-fokker" src="images/img/stock/ruiter.jpg"></div>
+		<div><img class="img-fluid img-fokker" src="images/img/stock/ruiter.jpg" alt="ruiter"></div>
       </div>
       
       <!--kolom rechts-->
@@ -71,104 +71,99 @@
         <form name="formulier-ruiter">
           <div class="form-group d-flex">
             <div class="wn wn-25">
-              <label for="inputVoornaam">Voornaam</label>
-              <input type="text" placeholder="Voornaam" class="form-control" id="inputVoornaam" required>
+              <label for="voornaam-rui">Voornaam*:</label>
+              <input type="text" placeholder="Voornaam" class="form-control" id="voornaam-rui" name="voornaam-rui" required>
             </div>
             <div class="wn wn-50">
-              <label for="Achternaam">Achternaam</label>
-              <input type="name" class="form-control" id="inputAchternaam" placeholder="Achternaam" required>
+              <label for="achternaam-rui">Achternaam*:</label>
+              <input type="text" class="form-control" id="achternaam-rui" name="achternaam-rui" placeholder="Achternaam" required>
             </div>
             <div class="wn-25">
-              <label for="inputGeboorte">Geboortedatum</label>
-              <input type="date" class="form-control" id="inputGeboorte" required>
+              <label for="geboortedatum">Geboortedatum*:</label>
+              <input type="date" class="form-control" id="geboortedatum" name="geboortedatum" required>
             </div>
           </div>
           <div class="form-group adres">
-            <label for="inputStreet">Adres</label>
-            <input type="text" class="form-control" id="inputStreet" placeholder="Straat + huisnummer" required>
+            <label for="straat-rui">Straat & huisnummer*:</label>
+            <input type="text" class="form-control" id="straat-rui" name="straat-rui" placeholder="Straat + huisnummer" required>
           </div>
           <div class="form-group d-flex">
             <div class="wn wn-20">
-              <label for="inputPostcode">Postcode</label>
-              <input type="text" class="form-control" id="inputPostcode" placeholder="Postcode" required>
+              <label for="postcode-rui">Postcode*:</label>
+              <input type="text" class="form-control" id="postcode-rui" name="postcode-rui" placeholder="Postcode" required>
             </div>
             <div class="wn wn-50">
-              <label for="inputCity">Woonplaats</label>
-              <input type="text" class="form-control" id="inputCity" placeholder="Woonplaats" required>
+              <label for="woonplaats-rui">Woonplaats*:</label>
+              <input type="text" class="form-control" id="woonplaats-rui" name="woonplaats-rui" placeholder="Woonplaats" required>
             </div>
             <div class="wn-30">
-              <label for="inputProvince">Provincie</label>
-              <input type="text" class="form-control" id="inputProvince" placeholder="Provincie" required>
+              <label for="province-rui">Provincie*:</label>
+              <input type="text" class="form-control" id="province-rui" name="provincie-rui" placeholder="Provincie" required>
             </div>
           </div>
           <div class="form-group e-mail d-flex wn">
             <div class="wn wn-40">
-              <label for="inputEmail">e-mail adres</label>
-              <input type="email" class="form-control" id="inputEmail" placeholder="voorbeeld@voorbeeld.com" required>
+              <label for="email-rui">E-mail*:</label>
+              <input type="email" class="form-control" id="email-rui" name="email-rui" placeholder="voorbeeld@voorbeeld.com" required>
             </div>
             <div class="wn wn-30">
-              <label for="inputTel">Telefoon</label>
-              <input type="number" class="form-control" id="inputTel" placeholder="0123456789">
+              <label for="tel-rui">Telefoon:</label>
+              <input type="tel" class="form-control" id="tel-rui" placeholder="0123456789">
             </div>
             <div class="wn-30">
-              <label for="inputMob">Mobiel</label>
-              <input type="number" class="form-control" id="inputMob" placeholder="0612345678">
+              <label for="mob-rui">Mobiel:</label>
+              <input type="tel" class="form-control" id="mob-rui" placeholder="0612345678">
             </div>
           </div>
           <div class="form-group d-flex">
             <div class="wn wn-50">
               <label>Discipline (meerdere opties mogelijk):</label>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="zadelmak">
+                <input type="checkbox" class="form-check-input" id="zadelmak" name="zadelmak">
                 <label class="form-check-label" for="zadelmak">Zadelmak maken</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="recreatief">
+                <input type="checkbox" class="form-check-input" id="recreatief" name="recreatief">
                 <label class="form-check-label" for="recreatief">Recreatief</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="dressuur">
+                <input type="checkbox" class="form-check-input" id="dressuur" name="dressuur">
                 <label class="form-check-label" for="dressuur">Dressuur</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="springen">
+                <input type="checkbox" class="form-check-input" id="springen" name="springen">
                 <label class="form-check-label" for="springen">Springen</label>
               </div>
               <div class="anders form-check">
-                <input type="checkbox" class="form-check-input rij" id="disc-anders">
-                <label for="disc-anders">Anders, namelijk:</label>
-                <input class="text">
+                <input type="checkbox" class="form-check-input rij" id="discipline-anders" name="discipline-anders">
+                <label for="disc-anders">Anders (omschrijf bij Toelichting):</label>
               </div>
             </div>
 			<div class="wn-50">
 				<div class="rij">
 				  <label for="lengte">Wat is je lengte?</label>
-				  <select class="form-control" id="lengte" required>
-					<option>Maak een keuze...</option>
-					<option>kleiner dan 150 cm</option>
-					<option>150-159</option>
-					<option>160-169</option>
-					<option>170-179</option>
-					<option>180-189</option>
-					<option>190-199</option>
-					<option>groter dan 200 cm</option>
+				  <select class="form-control" id="lengte" name="lengte" required>
+					<option value="maak-keuze">Maak een keuze...</option>
+					<option value="<150">kleiner dan 150 cm</option>
+					<option value="150-159">150-159</option>
+					<option value="160-169">160-169</option>
+					<option value="170-179">170-179</option>
+					<option value="180-189">180-189</option>
+					<option value="190-199">190-199</option>
+					<option value=">200">groter dan 200 cm</option>
 				  </select>
 				</div>
 				<div>
 				  <label for="gewicht">Wat is je gewicht?</label>
-				  <select class="form-control" id="gewicht" required>
-					<option>Maak een keuze...</option>
-					<option>minder dan 50 kg</option>
-					<option>50-55 kg</option>
-					<option>55-60 kg</option>
-					<option>60-65 kg</option>
-					<option>65-70 kg</option>
-					<option>70-75 kg</option>
-					<option>75-80 kg</option>
-					<option>80-85 kg</option>
-					<option>85-90 kg</option>
-					<option>90-95 kg</option>
-					<option>95-100 kg</option>
+				  <select class="form-control" id="gewicht" name="gewicht" required>
+					<option value="maak-keuze">Maak een keuze...</option>
+					<option value="<50">minder dan 50 kg</option>
+					<option value="50-59">50-59 kg</option>
+					<option value="60-69">60-69 kg</option>
+					<option value="70-79">70-79 kg</option>
+					<option value="80-89">80-89 kg</option>
+					<option value="90-99">90-99 kg</option>
+					<option value=">100">100+ kg</option>
 				  </select>
 				</div>
 				
@@ -178,56 +173,56 @@
             <div class="wn wn-50">
               <label>Hoe zit het met vervoer? Vink alles aan wat van toepassing is:</label>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="zadelmak">
-                <label class="form-check-label" for="zadelmak">Ik heb een auto</label>
+                <input type="checkbox" class="form-check-input" id="auto" name="auto">
+                <label class="form-check-label" for="auto">Ik heb een auto</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="recreatief">
-                <label class="form-check-label" for="recreatief">Ik heb een trailer</label>
+                <input type="checkbox" class="form-check-input" id="trailer" name="trailer">
+                <label class="form-check-label" for="trailer">Ik heb een trailer</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="dressuur">
-                <label class="form-check-label" for="dressuur">Ik heb een paardenvrachtwagen</label>
+                <input type="checkbox" class="form-check-input" id="paardenvrachtwagen" name="paardenvrachtwagen">
+                <label class="form-check-label" for="paardenvrachtwagen">Ik heb een paardenvrachtwagen</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="springen">
-                <label class="form-check-label" for="springen">Ik heb een B-rijbewijs</label>
+                <input type="checkbox" class="form-check-input" id="b-rijbewijs" name="b-rijbewijs">
+                <label class="form-check-label" for="b-rijbewijs">Ik heb een B-rijbewijs</label>
               </div>
 			  <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="springen">
-                <label class="form-check-label" for="springen">Ik heb een E-rijbewijs</label>
+                <input type="checkbox" class="form-check-input" id="e-rijbewijs" name="e-rijbewijs">
+                <label class="form-check-label" for="e-rijbewijs">Ik heb een E-rijbewijs</label>
               </div>
 			  <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="springen">
-                <label class="form-check-label" for="springen">Ik heb een C-rijbewijs</label>
+                <input type="checkbox" class="form-check-input" id="c-rijbewijs" name="c-rijbewijs">
+                <label class="form-check-label" for="c-rijbewijs">Ik heb een C-rijbewijs</label>
               </div>
 			  <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="springen">
-                <label class="form-check-label" for="springen">Ik ben afhankelijk van fiets/brommer/OV</label>
+                <input type="checkbox" class="form-check-input" id="fiets-brommer-ov" name="fiets-brommer-ov">
+                <label class="form-check-label" for="fiets-brommer-ov">Ik ben afhankelijk van fiets/brommer/OV</label>
               </div>
               <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="springen">
-                <label class="form-check-label" for="springen">Ik heb iemand die mij kan vervoeren</label>
+                <input type="checkbox" class="form-check-input" id="chauffeur" name="chauffeur">
+                <label class="form-check-label" for="chauffeur">Ik heb iemand die mij kan vervoeren</label>
               </div>
             </div>
 			<div class="wn-50">
 				<div class="rij">
 				  <label for="soort-ruiter">Ik ben een...</label>
-				  <select class="form-control" id="soort-ruiter" required>
-					<option>Maak een keuze...</option>
-					<option>beginnende ruiter</option>
-					<option>manegeruiter</option>
-					<option>gevorderde ruiter (hobbymatig)</option>
-					<option>professionele ruiter</option>
+				  <select class="form-control" id="soort-ruiter" name="soort-ruiter" required>
+					<option value="maak-keuze">Maak een keuze...</option>
+					<option value="beginnend">beginnende ruiter</option>
+					<option value="manege">manegeruiter</option>
+					<option value="gevorderd">gevorderde ruiter (hobbymatig)</option>
+					<option value="prof">professionele ruiter</option>
 				  </select>
 				</div>
-				<div class="rij">
+				<div class="rij form-group">
 				  <label for="x-perweek">Hoe vaak per week wil je rijden?</label>
-				  <input type="number" class="form-control" placeholder="0" required id="x-perweek">
+				  <input type="number" class="form-control" placeholder="0" required id="x-perweek" name="x-perweek">
 				</div>
 				<div class="form-group wedstrijdniveau">
-					<label>Wat is je hoogst behaalde wedstrijdniveau? Geef het per discipline aan:</label>
-					<input type="text" id="wn-mennen" class="form-control nivo-veld" placeholder="Discipline + Klasse, etc.">
+					<label for="niveau">Wat is je hoogst behaalde wedstrijdniveau? Geef het per discipline aan:</label>
+					<input type="text" id="niveau" name="niveau" class="form-control nivo-veld" placeholder="Discipline + Klasse, etc.">
           		</div>
 			</div>
           </div>
@@ -236,68 +231,68 @@
 			  <div class="wn wn-50">
 				  <label>Waar ligt je ambitie?<br> Meerdere opties mogelijk:</label>
 				  <div class="form-check">
-					<input type="checkbox" class="form-check-input">
-					<label class="form-check-label">Zadelmak maken</label>
+					<input type="checkbox" class="form-check-input" id="zadelmak-maken" name="zadelmak-maken">
+					<label class="form-check-label" for="zadelmak-maken">Zadelmak maken</label>
 				  </div>
 				  <div class="form-check">
-					<input type="checkbox" class="form-check-input">
-					<label class="form-check-label">Naar een bepaald niveau trainen</label>
+					<input type="checkbox" class="form-check-input" id="trainen" name="trainen">
+					<label class="form-check-label" for="trainen">Naar een bepaald niveau trainen</label>
 				  </div>
 				  <div class="form-check">
-					<input type="checkbox" class="form-check-input">
-					<label class="form-check-label">Wedstrijden rijden</label>
+					<input type="checkbox" class="form-check-input" id="wedstrijden" name="wedstrijden">
+					<label class="form-check-label" for="wedstrijden">Wedstrijden rijden</label>
 				  </div>
 				<div class="anders form-check">
-				  <input type="checkbox" class="form-check-input">
-				  <label>Anders, namelijk:</label>
-				  <input class="text">
+				  <input type="checkbox" class="form-check-input" id="discipline-anders-ruiter" name="discipline-anders-ruiter">
+				  <label for="discipline-anders-ruiter">Anders, namelijk:</label>
+				   <input type="text" class="form-control">
 				</div>
 			  </div>
 			  
 			  <div class="wn-50" id="soort">
 				  <label>Welke soort heeft je voorkeur?<br>Meerdere opties mogelijk:</label>
 				  <div class="form-check">
-					<input type="checkbox" class="form-check-input">
-					<label class="form-check-label">Warmbloed</label>
+					<input type="checkbox" class="form-check-input" id="warmbloed" name="warmbloed">
+					<label class="form-check-label" for="warmbloed">Warmbloed</label>
 				  </div>
 				  <div class="form-check">
-					<input type="checkbox" class="form-check-input">
-					<label class="form-check-label">Barok</label>
+					<input type="checkbox" class="form-check-input" id="barok" name="barok">
+					<label class="form-check-label" for="barok">Barok</label>
 				  </div>
 				  <div class="form-check">
-					<input type="checkbox" class="form-check-input">
-					<label class="form-check-label">Koudbloed</label>
+					<input type="checkbox" class="form-check-input" id="koudbloed" name="koudbloed">
+					<label class="form-check-label" for="koudbloed">Koudbloed</label>
 				  </div>
 				  <div class="anders form-check">
-				    <input type="checkbox" class="form-check-input">
-				    <label>Anders, namelijk:</label>
-				    <input type="text">
+				    <input type="checkbox" class="form-check-input" id="soort-anders" name="soort-anders">
+				    <label for="soort-anders">Anders, namelijk:</label>
+				    <input type="text" class="form-control">
 				  </div>
 			  
 			  </div> 
 			</div>
 			
 			<div class="form-group" id="stalling">
-            <label>Huisvesting paard/pony:</label>
-            <select class="form-control">
-			  <option>Maak een keuze...</option>
-              <option>Moet bij eigenaar op stal staan</option>
-              <option>Kan bij mij aan huis op stal staan, ik verwacht daarvoor een financiële vergoeding van eigenaar</option>
-              <option>Kan bij mij aan huis op stal staan, ik verwacht daarvoor GEEN financiële vergoeding van eigenaar</option>
-              <option>Pensionstal, ik verwacht daarvoor een financiële vergoeding van eigenaar</option>
-              <option>Pensionstal, ik verwacht daarvoor GEEN financiële vergoeding van eigenaar</option>
+            <label for="huisvesting-rui">Huisvesting paard/pony*:</label>
+            <select class="form-control" id="huisvesting-rui" name="huisvesting-rui">
+			  <option value="maak-keuze">Maak een keuze...</option>
+              <option value="bij-eigenaar">Moet bij eigenaar op stal staan</option>
+              <option value="bij-mij-geld">Kan bij mij aan huis op stal staan, ik verwacht daarvoor een financiële vergoeding van eigenaar</option>
+              <option value="bij-mij">Kan bij mij aan huis op stal staan, ik verwacht daarvoor GEEN financiële vergoeding van eigenaar</option>
+              <option value="pension-geld">Pensionstal, ik verwacht daarvoor een financiële vergoeding van eigenaar</option>
+              <option value="pension">Pensionstal, ik verwacht daarvoor GEEN financiële vergoeding van eigenaar</option>
             </select>
           </div>
           
           <div class="form-group">
-            <label>Training, begeleiding, huisvesting, alles heeft zijn prijs. Kun je aangeven welk deel van de kosten jij voor je rekening wilt nemen en welk deel je verwacht dat de eigenaar bijdraagt?</label>
-            <input type="text" class="form-control" placeholder="Type hier je ideeën voor verdeling van kosten.">
+            <label for="bijdrage">Training, begeleiding, huisvesting, alles heeft zijn prijs. Kun je aangeven welk deel van de kosten jij voor je rekening wilt nemen en welk deel je verwacht dat de eigenaar bijdraagt?</label>
+            <textarea name="bijdrage" id="bijdrage" cols="30" rows="3" class="form-control"></textarea>
           </div>
           <div class="form-group">
-            <label>Extra info, graag toelichten wat voor jou van belang is om tot een goede match te komen:</label>
-            <input type="text" class="form-control" placeholder="Ruimte voor extra informatie.">
+            <label>Toelichting:</label>
+            <textarea name="extra-info-ruiter" id="extra-info-ruiter" cols="30" rows="3" class="form-control"></textarea>
           </div>
-          <button type="submit" class="btn btn-primary">VERSTUUR</button>
+          <input type="submit" class="btn btn-primary" value="Aanmelden als ruiter">
         </form>
       </div>
     </div>
