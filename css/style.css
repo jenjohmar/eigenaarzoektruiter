@@ -199,6 +199,14 @@ h1 {
 	font-weight: 600;
 }
 
+.sponsor {
+	background-color: #C81618;
+	color: white;
+	padding: 1em;
+	border-radius: 8px;
+	margin-bottom: 1em;
+}
+
 /*HOME*/
 .doelvhprog {
 	background-color: #161FC5;
@@ -654,6 +662,7 @@ label.form-check-label {
 
 .footer {
 	background-color: white;
+	margin-top: 50px;
 }
 
 .copyright {
