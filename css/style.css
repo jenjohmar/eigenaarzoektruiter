@@ -141,6 +141,14 @@ h1 {
 	margin: 0;		
 }
 
+.under-construction {
+	background-color: white;
+	border-radius: 8px;
+	padding: 1em;
+	height: 200px;
+	margin-bottom: 100px;
+}
+
 .quote {
 	font-family: "Times New Roman";
 	font-style: italic;
