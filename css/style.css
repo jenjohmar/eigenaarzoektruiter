@@ -646,12 +646,6 @@ label.form-check-label {
 
 .footer {
 	background-color: white;
-	display: flex;
-}
-
-footer {
-	display: flex;
-	flex-direction: column;
 }
 
 .copyright {
@@ -669,12 +663,18 @@ footer {
 
 .jbc a {
 	color: orange;
-
 }
 
-.col-xl-1 {
-	margin: auto;
+.logo-rij {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+	padding: 1em 0;
 }
+
 /*FONT SECTION*/
 /* latin */
 @font-face {
