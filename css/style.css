@@ -147,6 +147,12 @@ h1 {
 	margin-bottom: 100px;
 }
 
+.p-form {
+	font-family: "Segoe UI", "Helvetica Neue", "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-size: 1em;
+	margin-bottom: 0.5em;
+}
+
 form {
 	max-width: 1000px;
 	margin: auto;
