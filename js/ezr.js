@@ -13,3 +13,4 @@ document.getElementById("leesmeer-2").addEventListener('click', function(){
 document.querySelector('.close-2').addEventListener('click', function() {
 	document.querySelector('.spotlight-2').style.display = 'none';
 });
+

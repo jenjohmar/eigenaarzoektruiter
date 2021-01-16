@@ -1,17 +1,24 @@
 @charset "utf-8";
 
 /*GENERAL LAY-OUT*/
+.oeps {
+	padding-bottom: 500px;
 
+}
 .body-home {
 	background-image: url("../images/IMG_0034-min.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-color: aliceblue;
+	position: relative;
 }
 
 .body-eigenaar {
 	background-image: url("../images/img/body_eigenaar.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
+	background-color: aliceblue;
+	position: relative;
 }
 
 .body-team {
@@ -28,6 +35,18 @@
 
 .body-GLD {
 	background-image: url("../images/img/gelderland.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-FL {
+	background-image: url("../images/img/flevoland.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-BR {
+	background-image: url("../images/img/brabant.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -50,6 +69,12 @@
 	background-size: cover;
 }
 
+.body-OV {
+	background-image: url("../images/img/overijssel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .body-UT {
 	background-image: url("../images/img/Utrecht_Grachten_1.jpg");
 	background-repeat: no-repeat;
@@ -62,9 +87,15 @@
 	background-size: cover;
 }
 
+.body-ZL {
+	background-image: url("../images/img/zeeland.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 main {
-	padding-top: 50px;
-	position: relative;
+	padding: 50px 0;
+	
 }
 
 .topbar {
@@ -92,6 +123,7 @@ main {
 .navigatie {
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 .tagline-nav {
@@ -102,6 +134,11 @@ main {
 
 .container {
 	width: 80%;
+	
+}
+
+.container-1 {
+	padding-top: 50px;
 }
 
 .kolom {
@@ -143,8 +180,12 @@ h1 {
 	background-color: white;
 	border-radius: 8px;
 	padding: 1em;
-	height: 200px;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
+}
+
+.help-mee-logo {
+	width: 250px;
+	margin-bottom: 200px;
 }
 
 .p-form {
@@ -291,7 +332,9 @@ img.d-block.mx-auto {
 	text-align: center;
 	background-color: aliceblue;
 	margin-top: 50px;
-	padding: 20px 0;
+	padding-bottom: 70px;
+	
+	
 }
 
 .spotlight-col {
@@ -299,6 +342,7 @@ img.d-block.mx-auto {
 	background-color: white;
 	border-radius: 8px;
 	padding: 1em;
+	filter: drop-shadow(5px 5px 5px grey);
 }
 
 .sl-image {
@@ -320,10 +364,10 @@ img.d-block.mx-auto {
 }
 
 /*spotlight/modal*/
-.bg-modal {
+.bg-modal{
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: rgba(0, 0, 0, 0.8);
 	position: absolute;
 	top: 0;
 	justify-content: center;
@@ -331,14 +375,36 @@ img.d-block.mx-auto {
 	display: none;
 }
 
+
 .modal-content {
-	width: 500px;
+	max-width: 500px;
 	background-color: white;
 	border-radius: 8px;
 	padding: 2em 1em;
 	text-align: center;
-	position: relative;
+	position: absolute;
 }
+
+.achtergrond {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	padding-top: 150px;
+	display: none;
+}
+
+.achtergrond-inhoud {
+	max-width: 600px;
+	text-align: center;
+	background-color: white;
+	border-radius: 8px;
+	padding: 2em;
+	position: absolute;
+}	
 
 .leesmeer-foto {
 	width: 80%;
@@ -380,34 +446,54 @@ img.d-block.mx-auto {
 }
 
 .button:hover {
-	background-color: blue;
+	background-color: #161FC5;
 }
 
 /*EIGENAAR*/
 
-.voorbeelden {
-	background-color: aliceblue;
-	padding: 0.5em;
-	border-radius: 8px;
-	height: 100%;
-	display: flex;
-}
-
 .voorbeeld {
 	background-color: white;
 	padding: 1em;
-	margin: 0.5em;
+	border-radius: 8px;
+	height: 100%;
+	filter: drop-shadow(5px 5px 5px grey);
+}
+
+.voorbeeld img {
+	margin-bottom: 1em;
 }
 
 .vb-button {
 	color: white;
-	background-color: #161FC5;
+	background-color: orange;
 	border: none;
 	padding: 0.5em 1em;
-	border-radius: 8px;
+	border-radius: 12px;
 	font-weight: 600;
 	margin-top: 0.5em;
 	
+}
+
+.vb-button:hover {
+	background-color: #161FC5;
+}
+
+.aanmelden-eig-rui {
+	padding: 0.3em 0.7em ;
+	margin: 50px 0.5em;
+	background-color: #C81618;
+	border-radius: 8px;
+	color: white;
+	font-family: "Bebas Neue";
+	font-size: 1.7em;
+	font-style: oblique;
+	border: none;
+	filter: drop-shadow(3px 5px 4px #011004);
+	margin-bottom: 1em;	
+}
+
+.aanmelden-eig-rui:hover {
+	background-color: orange;
 }
 
 /*TEAM-PAGE*/
@@ -420,11 +506,11 @@ img.d-block.mx-auto {
 }
 
 #peter {
-	background-color: lightblue;
+	background-color: #D6D8FA;
 }
 
 #swaen {
-	background-color: lightblue;
+	background-color: #D6D8FA;
 }
 /*REGIO's*/
 
@@ -674,7 +760,7 @@ label.form-check-label {
 
 .footer {
 	background-color: white;
-	margin-top: 50px;
+	
 	position: sticky;
   	left: 0;
   	bottom: 0;
@@ -708,6 +794,18 @@ label.form-check-label {
 	padding: 1em 0;
 }
 
+/*MEDIA QUERIES*/
+@media screen and (max-width: 768px) {
+	h1.slogan {
+		padding: 0.5em 0;
+	}
+	.spotlight {
+		margin-top: 0;
+	}
+	.body-eigenaar {
+		background-size: cover;
+	}
+}
 /*FONT SECTION*/
 /* latin */
 @font-face {
