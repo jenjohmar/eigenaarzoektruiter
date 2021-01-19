@@ -5,6 +5,41 @@
 	padding-bottom: 500px;
 
 }
+
+body {
+	background-color: aliceblue;
+}
+
+.download {
+	color: white;
+	background-color: #161FC5;
+	border: none;
+	padding: 0.5em 1em;
+	border-radius: 8px;
+	font-weight: 600;
+	margin-top: 1em;
+	width: 100%;
+}
+
+.juridisch {
+	background-image: url("../images/img/bg_juridisch.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 50px; 
+}
+
+.aansprakelijkheid {
+	background-color: aliceblue;
+	padding-bottom: 50px;
+	text-align: center;		
+}
+
+.formulieren {
+	background-color: white;
+	padding-bottom: 50px;
+	text-align: center;		
+}
+
 .body-home {
 	background-image: url("../images/IMG_0034-min.jpg");
 	background-repeat: no-repeat;
@@ -262,10 +297,9 @@ form {
 
 /*HOME*/
 .doelvhprog {
-	background-color: #161FC5;
+	background-color: white;
 	border-radius: 8px;
 	padding: 1em;
-	color: white;
 	height: 100%;
 }
 
@@ -308,7 +342,7 @@ img.d-block.mx-auto {
 }
 
 .knop {
-	background-color: #C81618;
+	background-color: #161FC5;
 	color: white;
 	position: absolute;
 	bottom: 0;
@@ -320,7 +354,7 @@ img.d-block.mx-auto {
 }
 
 .knop:hover {
-	background-color: #161FC5;
+	background-color: #C81618;
 }
 
 .knop-h3 {
@@ -329,7 +363,6 @@ img.d-block.mx-auto {
 
 /*HOME/spotlight*/
 .spotlight {
-	text-align: center;
 	background-color: aliceblue;
 	margin-top: 50px;
 	padding-bottom: 70px;
@@ -343,6 +376,7 @@ img.d-block.mx-auto {
 	border-radius: 8px;
 	padding: 1em;
 	filter: drop-shadow(5px 5px 5px grey);
+	text-align: center;
 }
 
 .sl-image {
