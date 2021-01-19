@@ -840,6 +840,12 @@ label.form-check-label {
 		background-size: cover;
 	}
 }
+
+@media screen and (max-width: 600px) {
+	.footer {
+		position: static;
+	}
+}
 /*FONT SECTION*/
 /* latin */
 @font-face {
