@@ -6,6 +6,16 @@
 
 }
 
+.paardjes {
+	overflow: hidden;
+	
+}
+
+.paardjes img {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+}
 body {
 	background-color: aliceblue;
 }
@@ -28,16 +38,24 @@ body {
 	padding-bottom: 50px; 
 }
 
+.index {
+	background-image: url("../images/IMG_0034-min.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 50px; 
+	
+}
+
 .section-blue {
 	background-color: aliceblue;
 	padding-bottom: 50px;
-	text-align: center;		
+		
 }
 
 .section-white {
 	background-color: white;
 	padding-bottom: 50px;
-	text-align: center;		
+		
 }
 
 .body-home {
@@ -491,6 +509,7 @@ img.d-block.mx-auto {
 	border-radius: 8px;
 	height: 100%;
 	filter: drop-shadow(5px 5px 5px grey);
+	text-align: center;
 }
 
 .voorbeeld img {
@@ -540,11 +559,11 @@ img.d-block.mx-auto {
 }
 
 #peter {
-	background-color: #D6D8FA;
+	background-color: #D8D8D8;
 }
 
 #swaen {
-	background-color: #D6D8FA;
+	background-color: #D8D8D8;
 }
 /*REGIO's*/
 
