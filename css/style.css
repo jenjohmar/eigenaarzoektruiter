@@ -847,6 +847,23 @@ label.form-check-label {
 	padding: 1em 0;
 }
 
+.sponsor-rij {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+	padding: 1em 0;
+}
+
+.sponsor-rij img {
+	max-width: 200px;
+	max-height: 100px;
+	margin: 1em;
+}
+
+
 /*MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
 	h1.slogan {
