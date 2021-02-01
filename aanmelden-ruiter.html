@@ -22,20 +22,20 @@
           <ul class="navbar-nav">
             <li class="nav-item"> <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a> </li>
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> REGIO'S </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="noord-nederland.html">Drenthe</a> <a class="dropdown-item" href="gelderland.html">Flevoland</a> <a class="dropdown-item" href="noord-nederland.html">Friesland</a> <a class="dropdown-item" href="gelderland.html">Gelderland</a> <a class="dropdown-item" href="noord-nederland.html">Groningen</a> <a class="dropdown-item" href="https://fokkerzoektruiter.nl/" target="new">Limburg</a> <a class="dropdown-item" href="brabant.html">Noord-Brabant</a> <a class="dropdown-item" href="noord-holland.html">Noord-Holland</a> <a class="dropdown-item" href="overijssel.html">Overijssel</a> <a class="dropdown-item" href="utrecht.html">Utrecht</a> <a class="dropdown-item" href="zuid-holland.html">Zeeland</a> <a class="dropdown-item" href="zuid-holland.html">Zuid-Holland</a></div>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="noord-nederland.html">Drenthe</a> <a class="dropdown-item" href="gelderland.html">Flevoland</a> <a class="dropdown-item" href="noord-nederland.html">Friesland</a> <a class="dropdown-item" href="gelderland.html">Gelderland</a> <a class="dropdown-item" href="noord-nederland.html">Groningen</a> <a class="dropdown-item" href="https://fokkerzoektruiter.nl/" target="new">Limburg</a> <a class="dropdown-item" href="brabant.html">Noord-Brabant</a> <a class="dropdown-item" href="noord-holland.html">Noord-Holland</a> <a class="dropdown-item" href="noord-nederland.html">Overijssel-Noord</a> <a class="dropdown-item" href="gelderland.html">Overijssel-Zuid</a> <a class="dropdown-item" href="utrecht.html">Utrecht</a> <a class="dropdown-item" href="zuid-holland.html">Zeeland</a> <a class="dropdown-item" href="zuid-holland.html">Zuid-Holland</a></div>
             </li>
             <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> AANMELDEN </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="aanmelden-eigenaar.html">Aanmelden eigenaar/fokker</a> <a class="dropdown-item active" href="aanmelden-ruiter.html">Aanmelden ruiter/menner</a> <a class="dropdown-item" href="aanmelden-sponsor.html">Aanmelden sponsor/dienstverlener</a> </div>
             </li>
-			<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> INFORMATIE </a>
+            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> INFORMATIE </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> <a class="dropdown-item" href="eigenaar.html">Eigenaar / Fokker</a> <a class="dropdown-item" href="ruiter.html">Ruiter / menner</a><a class="dropdown-item" href="juridisch.html">Juridisch</a></div>
             </li>
             <li class="nav-item"> <a class="nav-link" href="help-mee.html">HELP MEE</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="sponsors.html">SPONSOREN</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="nieuws.html">NIEUWS</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="sponsors.html">SPONSOREN</a> </li>
             <li class="nav-item"> <a class="nav-link" href="kernteam.html">KERNTEAM</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="contact.html">CONTACT</a> </li>
-			<li class="nav-item"> <a class="nav-link" href="#">LOGIN</a> </li>
-
+            <li class="nav-item"> <a class="nav-link" href="contact.html">CONTACT</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="#">LOGIN</a> </li>
           </ul>
         </div>
       </nav>
@@ -187,112 +187,109 @@
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="profruiter" name="profruiter">
             <label for="profruiter" class="form-check-label">Professionele ruiter*</label>
-			<small>*Vermeld in de toelichting je tarieven</small>
+            <small>*Vermeld in de toelichting je tarieven</small> </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="form-group">
+            <label for="lengte">Wat is je lengte?*:</label>
+            <select name="lengte" id="lengte" class="form-control">
+              <option value="maak-keuze">Maak een keuze...</option>
+              <option value="<150">kleiner dan 150 cm</option>
+              <option value="150-159">150-159</option>
+              <option value="160-169">160-169</option>
+              <option value="170-179">170-179</option>
+              <option value="180-189">180-189</option>
+              <option value="190-199">190-199</option>
+              <option value=">200">groter dan 200 cm</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="gewicht">Wat is je gewicht?*:</label>
+            <select name="gewicht" id="gewicht" class="form-control">
+              <option value="maak-keuze">Maak een keuze...</option>
+              <option value="<50">minder dan 50 kg</option>
+              <option value="50-59">50-59 kg</option>
+              <option value="60-69">60-69 kg</option>
+              <option value="70-79">70-79 kg</option>
+              <option value="80-89">80-89 kg</option>
+              <option value="90-99">90-99 kg</option>
+              <option value=">100">100+ kg</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="hoe-vaak">Hoe vaak per week wil je rijden?*:</label>
+            <input type="text" id="hoe-vaak" name="hoe-vaak" class="form-control" required>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="form-group">
+            <label for="wedstrijdniveau">Wat is je wedstrijdniveau? Vermeld hier de discipline(s) en klassering(en):</label>
+            <textarea name="wedstrijdniveau" id="wedstrijdniveau" cols="30" rows="4" class="form-control" placeholder="Hier kun je per discipline je behaalde klasse aangeven..."></textarea>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <p class="p-form">Hoe zit het met vervoer? Vink alles aan wat van toepassing is*:</p>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="auto" name="auto">
+            <label class="form-check-label" for="auto">Ik heb een auto</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="trailer" name="trailer">
+            <label class="form-check-label" for="trailer">Ik heb een trailer</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="paardenvrachtwagen" name="paardenvrachtwagen">
+            <label class="form-check-label" for="paardenvrachtwagen">Ik heb een paardenvrachtwagen</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="b-rijbewijs" name="b-rijbewijs">
+            <label class="form-check-label" for="b-rijbewijs">B-rijbewijs</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="e-rijbewijs" name="e-rijbewijs">
+            <label class="form-check-label" for="e-rijbewijs">E-rijbewijs</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="c-rijbewijs" name="c-rijbewijs">
+            <label class="form-check-label" for="c-rijbewijs">C-rijbewijs</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="fiets-brommer-ov" name="fiets-brommer-ov">
+            <label class="form-check-label" for="fiets-brommer-ov">Afhankelijk van fiets/brommer/OV</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="chauffeur" name="chauffeur">
+            <label class="form-check-label" for="chauffeur">Ik heb iemand die mij kan vervoeren</label>
           </div>
         </div>
       </div>
     </div>
-	<div class="form-group">
-		<div class="row">
-			<div class="col-12 col-md-4">
-				<div class="form-group">
-					<label for="lengte">Wat is je lengte?*:</label>
-					<select name="lengte" id="lengte" class="form-control">
-						<option value="maak-keuze">Maak een keuze...</option>
-						<option value="<150">kleiner dan 150 cm</option>
-						<option value="150-159">150-159</option>
-						<option value="160-169">160-169</option>
-						<option value="170-179">170-179</option>
-						<option value="180-189">180-189</option>
-						<option value="190-199">190-199</option>
-						<option value=">200">groter dan 200 cm</option>
-					</select>
-				</div>
-				<div class="form-group">
-					<label for="gewicht">Wat is je gewicht?*:</label>
-					<select name="gewicht" id="gewicht" class="form-control">
-						<option value="maak-keuze">Maak een keuze...</option>
-						<option value="<50">minder dan 50 kg</option>
-						<option value="50-59">50-59 kg</option>
-						<option value="60-69">60-69 kg</option>
-						<option value="70-79">70-79 kg</option>
-						<option value="80-89">80-89 kg</option>
-						<option value="90-99">90-99 kg</option>
-						<option value=">100">100+ kg</option>
-					</select>
-				</div>
-				<div class="form-group">
-					<label for="hoe-vaak">Hoe vaak per week wil je rijden?*:</label>
-					<input type="text" id="hoe-vaak" name="hoe-vaak" class="form-control" required>
-				</div>
-			</div>
-			<div class="col-12 col-md-4">
-				<div class="form-group">
-					<label for="wedstrijdniveau">Wat is je wedstrijdniveau? Vermeld hier de discipline(s) en klassering(en):</label>
-					<textarea name="wedstrijdniveau" id="wedstrijdniveau" cols="30" rows="4" class="form-control" placeholder="Hier kun je per discipline je behaalde klasse aangeven..."></textarea></div>
-				
-			</div>
-			<div class="col-12 col-md-4">
-				<p class="p-form">Hoe zit het met vervoer? Vink alles aan wat van toepassing is*:</p>
-				<div class="form-check">
-					<input type="checkbox" class="form-check-input" id="auto" name="auto">
-					<label class="form-check-label" for="auto">Ik heb een auto</label>
-              	</div>
-				<div class="form-check">
-					<input type="checkbox" class="form-check-input" id="trailer" name="trailer">
-					<label class="form-check-label" for="trailer">Ik heb een trailer</label>
-				</div>
-                <div class="form-check">
-                	<input type="checkbox" class="form-check-input" id="paardenvrachtwagen" name="paardenvrachtwagen">
-                	<label class="form-check-label" for="paardenvrachtwagen">Ik heb een paardenvrachtwagen</label>
-                </div>
-                <div class="form-check">
-					<input type="checkbox" class="form-check-input" id="b-rijbewijs" name="b-rijbewijs">
-					<label class="form-check-label" for="b-rijbewijs">B-rijbewijs</label>
-                </div>
-			    <div class="form-check">
-					<input type="checkbox" class="form-check-input" id="e-rijbewijs" name="e-rijbewijs">
-					<label class="form-check-label" for="e-rijbewijs">E-rijbewijs</label>
-                </div>
-			    <div class="form-check">
-					<input type="checkbox" class="form-check-input" id="c-rijbewijs" name="c-rijbewijs">
-					<label class="form-check-label" for="c-rijbewijs">C-rijbewijs</label>
-                </div>
-			    <div class="form-check">
-					<input type="checkbox" class="form-check-input" id="fiets-brommer-ov" name="fiets-brommer-ov">
-					<label class="form-check-label" for="fiets-brommer-ov">Afhankelijk van fiets/brommer/OV</label>
-                </div>
-                <div class="form-check">
-					<input type="checkbox" class="form-check-input" id="chauffeur" name="chauffeur">
-					<label class="form-check-label" for="chauffeur">Ik heb iemand die mij kan vervoeren</label>
-                </div>
-			</div>
-		</div>  
-	</div>
-    
     <div class="form-group">
-		<div class="row">
-			<div class="col">
-				<div class="form-group">
-					<label for="kosten-rui">Kostenverdeling:</label>
-      				<textarea name="kosten-rui" id="kosten-rui" cols="30" rows="3" placeholder="Training, begeleiding, huisvesting, alles heeft zijn prijs. Kunt je kort aangeven welk deel van de kosten jij voor je rekening wilt nemen?" class="form-control"></textarea>
-				</div>
-			</div>
-			<div class="col">
-				<div class="form-group">
-					<label for="huisvesting-rui">Huisvesting paard/pony*:</label>
-					<select class="form-control" id="huisvesting-rui" name="huisvesting-rui" required>
-						<option value="maak-keuze">Maak een keuze...</option>
-						<option value="Het dier moet bij eigenaar op stal blijven">Het dier moet bij eigenaar op stal blijven</option>
-						<option value="Ik kan aan huis stallen en verwacht een bijdrage in de kosten">Ik kan aan huis stallen en verwacht een bijdrage in de kosten</option>
-						<option value="Ik kan aan huis stallen en verwacht daarvoor GEEN bijdrage">Ik kan aan huis stallen en verwacht daarvoor GEEN bijdrage</option>
-						<option value="Pensionstal, op mijn kosten">Pensionstal, ik draag de stallingskosten</option>
-						<option value="Pensionstal, ik verwacht een bijdrage in de kosten">Pensionstal, ik verwacht van eigenaar een bijdrage in de kosten</option>
-					</select>
-				</div>
-			</div>
-		</div>
-      
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="kosten-rui">Kostenverdeling:</label>
+            <textarea name="kosten-rui" id="kosten-rui" cols="30" rows="3" placeholder="Training, begeleiding, huisvesting, alles heeft zijn prijs. Kunt je kort aangeven welk deel van de kosten jij voor je rekening wilt nemen?" class="form-control"></textarea>
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label for="huisvesting-rui">Huisvesting paard/pony*:</label>
+            <select class="form-control" id="huisvesting-rui" name="huisvesting-rui" required>
+              <option value="maak-keuze">Maak een keuze...</option>
+              <option value="Het dier moet bij eigenaar op stal blijven">Het dier moet bij eigenaar op stal blijven</option>
+              <option value="Ik kan aan huis stallen en verwacht een bijdrage in de kosten">Ik kan aan huis stallen en verwacht een bijdrage in de kosten</option>
+              <option value="Ik kan aan huis stallen en verwacht daarvoor GEEN bijdrage">Ik kan aan huis stallen en verwacht daarvoor GEEN bijdrage</option>
+              <option value="Pensionstal, op mijn kosten">Pensionstal, ik draag de stallingskosten</option>
+              <option value="Pensionstal, ik verwacht een bijdrage in de kosten">Pensionstal, ik verwacht van eigenaar een bijdrage in de kosten</option>
+            </select>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="form-group">
       <label for="toelichting-rui">Toelichting:</label>

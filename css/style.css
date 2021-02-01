@@ -569,6 +569,7 @@ img.d-block.mx-auto {
 
 .persbericht {
 	padding: 0.3em 0.7em ;
+	margin: 1em 0;
 	background-color: #161FC5;
 	border-radius: 8px;
 	color: white;
