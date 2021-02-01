@@ -364,7 +364,7 @@ img.d-block.mx-auto {
 }
 
 .eigenaar img {
-	width: 100%;
+	
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 }
@@ -900,6 +900,10 @@ label.form-check-label {
 	margin: 1em;
 }
 
+.section-titel {
+	text-align: center;
+}
+
 
 /*MEDIA QUERIES*/
 @media screen and (max-width: 768px) {
@@ -912,11 +916,45 @@ label.form-check-label {
 	.body-eigenaar {
 		background-size: cover;
 	}
+	#enverder {
+		order: 1;
+	}
+	
+	#col-eig {
+		order: 2;
+	}
+	
+	#col-rui {
+		order: 3;
+	}
+	#col-spon {
+		order: 4;
+	}
 }
 
 @media screen and (max-width: 600px) {
 	.footer {
 		position: static;
+	}
+	.container {
+		width: 100%;
+	}
+	
+	.container-1 {
+		padding: 20px 0;
+	}
+	.carousel {
+		display: none;
+	}
+	
+	.eigenaar img {
+		display: none;
+	}
+	
+	.knop {
+		position: static;
+		border-radius: 8px;
+		
 	}
 }
 /*FONT SECTION*/
