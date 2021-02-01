@@ -42,6 +42,7 @@ body {
 	background-image: url("../images/IMG_0034-min.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: bottom;
 	padding-bottom: 50px; 
 	
 }
@@ -105,9 +106,10 @@ body {
 }
 
 .body-FR {
-	background-image: url("../images/img/friesland.jpg");
+	background-image: url("../images/img/westerhever-lighthouse-1779187.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .body-GR {
@@ -562,6 +564,22 @@ img.d-block.mx-auto {
 }
 
 .aanmelden-eig-rui:hover {
+	background-color: orange;
+}
+
+.persbericht {
+	padding: 0.3em 0.7em ;
+	background-color: #161FC5;
+	border-radius: 8px;
+	color: white;
+	font-family: "Bebas Neue";
+	font-size: 1.3em;
+	border: none;
+	filter: drop-shadow(3px 5px 4px #011004);
+	width: 100%;
+}
+
+.persbericht:hover {
 	background-color: orange;
 }
 
