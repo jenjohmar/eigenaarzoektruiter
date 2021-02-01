@@ -373,10 +373,12 @@ img.d-block.mx-auto {
 	background-color: #161FC5;
 	color: white;
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius: 8px;
 	text-align: center;
-	padding: 0.2em;
+	padding: 0.5em 0.2em;
 }
 
 .knop:hover {
