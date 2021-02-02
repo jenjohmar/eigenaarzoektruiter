@@ -922,10 +922,12 @@ label.form-check-label {
 	
 	#col-eig {
 		order: 2;
+		
 	}
 	
 	#col-rui {
 		order: 3;
+		
 	}
 	#col-spon {
 		order: 4;
@@ -941,7 +943,12 @@ label.form-check-label {
 	}
 	
 	.container-1 {
-		padding: 20px 0;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	.index {
+		padding-bottom: 0;
 	}
 	.carousel {
 		display: none;
@@ -954,7 +961,6 @@ label.form-check-label {
 	.knop {
 		position: static;
 		border-radius: 8px;
-		
 	}
 }
 /*FONT SECTION*/
