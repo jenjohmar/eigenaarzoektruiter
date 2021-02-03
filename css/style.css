@@ -958,6 +958,10 @@ label.form-check-label {
 }
 
 @media screen and (max-width: 600px) {
+	h1.slogan {
+		padding: 0.5em 0;
+	}
+	
 	.footer {
 		position: static;
 	}
