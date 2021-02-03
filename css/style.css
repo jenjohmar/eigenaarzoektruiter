@@ -382,7 +382,7 @@ img.d-block.mx-auto {
 }
 
 .knop:hover {
-	background-color: #C81618;
+	background-color: orange;
 }
 
 .knop-h3 {
@@ -432,7 +432,7 @@ img.d-block.mx-auto {
 }
 
 .sl-button:hover {
-	background-color: #C81618;
+	background-color: orange;
 }
 
 /*spotlight/modal*/
@@ -906,7 +906,7 @@ label.form-check-label {
 
 
 /*MEDIA QUERIES*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 600px) {
 	h1.slogan {
 		padding: 0.5em 0;
 	}
@@ -927,6 +927,7 @@ label.form-check-label {
 	
 	#col-rui {
 		order: 3;
+		height: 241px;
 		
 	}
 	#col-spon {
@@ -939,7 +940,7 @@ label.form-check-label {
 		position: static;
 	}
 	.container {
-		width: 100%;
+		width: 95%;
 	}
 	
 	.container-1 {
